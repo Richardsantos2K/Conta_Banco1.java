@@ -1,0 +1,24 @@
+Ola vim apresentar um codigo que fiz estudando POO (programação orientada a objeto)
+neste estudo usamos um banco como exemplo, neste exemplo colocamos contas corrente e poupança, para separar as contas
+no metodo construtor colocamos o saldo como 0 e o status da conta como false, simulando "Conta fechada"
+
+ao abrir a conta se o portador desta conta criar uma conta corrente, neste exemplo, ira começar com 50 reais, se for conta poupança
+ira começar com 150 reias
+
+neste banco temos como abrir e fechar a conta.
+para fechar a conta o cliente NÃO deve ter o saldo negativo ou estiver com o saldo a mais de 0 reais
+
+neste exemplo temos como depositar e sacar, para depositar o status da conta deve ser verdadeiro ou seja aberto, se n estiver
+com os status da conta aberto ira passar uma menssagem de erro.
+
+já para sacar nesta conta temos que ter o saldo positivo a mais que o dinheiro que ira ser sacado, e temos tambem que ter a status da conta verdadeiro
+
+neste exemplo se chamar-mos o metodo ex: p1.pagarMensal(*valor*)
+ira pagar uma taxa, dependendo da conta se for CC ou Conta Corrente ira ser debitado 12 reais, se for CP ou Conta Poupança
+ira ser debitado 20 reais, mas a conta tambem tem que ter o status verdadeiro ou seja conta aberta
+
+para usar os metodos especias get e set e o metodo construct
+usamos um pouco da logica de programação dentro de cada metodo, e tambem os gets e sets dentro dos metodos que
+criamos...
+
+Meu nome é Richard Tenho 18 anos e pretendo seguir da carreira de desenvolvedor backend :)
