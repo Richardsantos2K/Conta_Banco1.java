@@ -28,22 +28,27 @@ public class ControleRemoto implements Controlador {
     }
 
     private void setVolume(int v) {
+
         this.volume = v;
     }
 
     private boolean getLigado() {
+
         return ligado;
     }
 
     private void setLigado(boolean l) {
+
         this.ligado = l;
     }
 
     private boolean getTocando() {
+
         return tocando;
     }
 
     private void setTocando(boolean t) {
+
         this.tocando = t;
     }
 
