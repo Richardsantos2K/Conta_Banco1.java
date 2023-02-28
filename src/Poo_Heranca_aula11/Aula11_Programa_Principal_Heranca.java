@@ -3,7 +3,8 @@ package Poo_Heranca_aula11;
 public class Aula11_Programa_Principal_Heranca {
     public static void main(String[]args){
 
-        //Pessoa p = new Pessoa(); A classe Pessoa é uma classe abstrata, por isso não se pode utilizala no programa principal
+        //Pessoa p = new Pessoa(); A classe Pessoa é uma classe abstrata, por isso não se pode utilizala no programa principal, e não pode ser transformada em objeto
+
 
         Visitante v1 = new Visitante();
         v1.setNome("Juvenal");
