@@ -62,9 +62,8 @@ public class ControleRemoto implements Controlador {
     //---------Metodos abstratos---------
     @Override
     public void ligar() {
-        if (this.getLigado())
-            this.setLigado(true);
-            System.out.println("Ligando TV");
+        this.setLigado(true);
+        System.out.println("Ligando TV");
     }
 
 
